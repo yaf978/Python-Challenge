@@ -47,9 +47,9 @@ for i in range(len(candidates_list)):
 x = zip(candidates_list, percentage, vote_count)
 info = tuple(x)
 
-# TODO 6: WRITE TO FILE
+# TODO 6: WRITE TO FILE and print the result to the termial
 
-with open('Analysis/Analysis.txt', 'w') as f:
+with open('Analysis/Analysis.txt', 'r+') as f:
     f.write('Election Results\n')
     f.write("----------------------------\n")
     f.write(f"Total Votes: {total_vote_number}\n")
@@ -59,3 +59,5 @@ with open('Analysis/Analysis.txt', 'w') as f:
     f.write("----------------------------\n")
     f.write(f"Winner:{winner}\n")
     f.write("----------------------------\n")
+    for lines in f:
+        print(f.readline())

@@ -19,3 +19,29 @@ the script analyzing the financial records to calculate :
 * The greatest decrease in profits (date and amount) over the entire period
 
 then save the results of calculating in a text file and print it on screen
+
+2- PyPoll:
+
+We are helping a small, rural town modernize its vote-counting process.
+
+The given dataset is composed of three columns: "Voter ID", "County", and "Candidate".
+
+The script  analyzes the votes and calculates each of the following:
+
+
+* The total number of votes cast
+
+
+* A complete list of candidates who received votes
+
+
+* The percentage of votes each candidate won
+
+
+* The total number of votes each candidate won
+
+
+* The winner of the election based on popular vote.
+
+
+Then print the analysis to the terminal and export a text file with the results.
