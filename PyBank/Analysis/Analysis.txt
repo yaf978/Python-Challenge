@@ -1,0 +1,7 @@
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $22564198
+Average Change : $-8311.11
+Greatest increase is ($1862002) happened in Aug-16
+Greatest decrease is ($-1825558) happened in Feb-14
