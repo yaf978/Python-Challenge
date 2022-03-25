@@ -49,15 +49,16 @@ info = tuple(x)
 
 # TODO 6: WRITE TO FILE and print the result to the termial
 
-with open('Analysis/Analysis.txt', 'r+') as f:
-    f.write('Election Results\n')
-    f.write("----------------------------\n")
-    f.write(f"Total Votes: {total_vote_number}\n")
-    f.write("----------------------------\n")
+with open('Analysis/Analysis.txt', 'w') as file:
+    file.write('Election Results\n')
+    file.write("----------------------------\n")
+    file.write(f"Total Votes: {total_vote_number}\n")
+    file.write("----------------------------\n")
     for i in info:
-        f.write(f"{i[0]} : {i[1]}% ({i[2]})\n")
-    f.write("----------------------------\n")
-    f.write(f"Winner:{winner}\n")
-    f.write("----------------------------\n")
-    for lines in f:
-        print(f.readline())
+        file.write(f"{i[0]} : {i[1]}% ({i[2]})\n")
+    file.write("----------------------------\n")
+    file.write(f"Winner:{winner}\n")
+    file.write("----------------------------\n")
+
+with open('Analysis/Analysis.txt', 'r') as txt_f:
+    print(txt_f.read())
