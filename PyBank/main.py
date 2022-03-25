@@ -25,7 +25,11 @@ with open(budget_csv) as csvfile:
 # TODO 1 :The total number of months included in the dataset:
 
 total_months = len(months)
+<<<<<<< HEAD
 print(f"\nTotal Months: {total_months}")
+=======
+print(f"Total Months: {total_months}")
+>>>>>>> b3dc1b879aaff8add9e06aa0c7b714c2ff4e30cb
 
 # todo 2: The net total amount of "Profit/Losses" over the entire period:
 
